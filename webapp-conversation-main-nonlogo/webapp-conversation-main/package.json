@@ -9,7 +9,7 @@
     "lint": "next lint",
     "fix": "next lint --fix",
     "eslint-fix": "eslint . --fix",
-    "prepare": "husky install ./.husky"
+    "prepare": "test -d .git && husky install ./.husky"
   },
   "dependencies": {
     "@floating-ui/react": "^0.26.2",
